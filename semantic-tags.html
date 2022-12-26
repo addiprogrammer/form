@@ -9,6 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .service-card {
+            display: inline-block;
+            width: 30%;
+        }
+
+        .service-section {
+            margin-top: 100px;
+            padding-left: 100px;
+            padding-top: 100px;
+            border: 1px solid black;
+
+        }
+
+        .blog-title,
+        .blog-sub-title,
+        .author-name {
+            text-transform: capitalize;
+        }
+        .footer-menu{
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +43,7 @@
             <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         </div>
         <!-- top bar menu ends -->
-        
+
         <!-- <nav>
             <ul>
                 <li><a href="#">home</a></li>
@@ -35,8 +58,93 @@
             <a href="#">about</a>
             <a href="#">contact</a>
         </nav>
-          <!-- navigation menu ends -->
+        <!-- navigation menu ends -->
     </header>
+
+    <main>
+        <section id="service" class="service-section">
+            <div class="service-card">
+                <i class="fa-solid fa-rocket"></i>
+                <h1>SEO</h1>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellendus, incidunt iste voluptate
+                    recusandae dolore explicabo impedit aliquam suscipit illum amet iusto autem eos consectetur, quis,
+                    tempore ut quos sunt!</P>
+                <a href="#">see more...</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-rocket"></i>
+                <h1>SEO</h1>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellendus, incidunt iste voluptate
+                    recusandae dolore explicabo impedit aliquam suscipit illum amet iusto autem eos consectetur, quis,
+                    tempore ut quos sunt!</P>
+                <a href="#">see more...</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-rocket"></i>
+                <h1>SEO</h1>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellendus, incidunt iste voluptate
+                    recusandae dolore explicabo impedit aliquam suscipit illum amet iusto autem eos consectetur, quis,
+                    tempore ut quos sunt!</P>
+                <a href="#">see more...</a>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+            <article>
+                <div name="blog-card">
+                    <img src="" alt="" class="blog-cover">
+                    <h1 class="blog-title">blog title</h1>
+                    <h5 class="blog-sub-title">blog sub-title</h5>
+                    <small class="author-name">author name</small>
+                    <small>published on: 01<sup>st</sup> Jan 2022</small>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ab numquam eos exercitationem
+                        quos? Ab est hic reiciendis optio consectetur quidem facilis eum cupiditate? Cum sapiente
+                        impedit corrupti odit consectetur?
+                    </p>
+                    <a href="#">see more</a>
+
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <section id="footer-menu" class="footer-menu-section">
+            <div class="footer-menu">
+                <address>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut dolorem aliquid consectetur,
+                    libero dolorum suscipit quidem labore, deserunt, beatae eaque facere tenetur similique repellat
+                    reiciendis possimus qui ipsam rerum eligendi.
+                </address>
+            </div>
+            <div class="footer-menu">
+                <h3>useful links</h3>
+                <ul>
+                    <li>
+                        <a href="#">about</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                    <li>
+                        <a href="#">carrier</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footer-menu">
+                <h3>subscribe us</h3>
+                <input type="email" placeholder="enter your email">
+                <button type="submit">submit</button>
+
+            </div>
+        </section>
+
+        <section id="copyright" class="copyright">
+            <p>&copy;  2022 all rights reserved websitename.com</p>
+
+        </section>
+    </footer>
 
 </body>
 
